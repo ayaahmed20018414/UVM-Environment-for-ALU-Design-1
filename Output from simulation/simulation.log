@@ -1,0 +1,446 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version V-2023.12; Runtime version V-2023.12;  Mar 19 00:40 2024
+UVM_INFO /eda/synopsys/vcs/V-2023.12/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO test.sv(8) @ 0: uvm_test_top [TEST CLASS] inside constructor!
+UVM_INFO @ 0: reporter [RNTST] Running test alu_test...
+UVM_INFO test.sv(14) @ 0: uvm_test_top [TEST CLASS] Build phase!
+UVM_INFO env.sv(7) @ 0: uvm_test_top.env [ENV CLASS] inside constructor!
+UVM_INFO env.sv(13) @ 0: uvm_test_top.env [ENV CLASS] Build phase!
+UVM_INFO scoreboard.sv(7) @ 0: uvm_test_top.env.scb [scoreboard CLASS] inside constructor!
+UVM_INFO agent.sv(8) @ 0: uvm_test_top.env.agnt [AGENT CLASS] inside constructor!
+UVM_INFO agent.sv(14) @ 0: uvm_test_top.env.agnt [AGENT CLASS] Build phase!
+UVM_INFO driver.sv(7) @ 0: uvm_test_top.env.agnt.drv [DRIVER CLASS] inside constructor!
+UVM_INFO monitor.sv(8) @ 0: uvm_test_top.env.agnt.mon [MONITOR CLASS] inside constructor!
+UVM_INFO sequencer.sv(5) @ 0: uvm_test_top.env.agnt.seqr [SEQUENCER CLASS] inside constructor!
+UVM_INFO driver.sv(13) @ 0: uvm_test_top.env.agnt.drv [DRIVER CLASS] Build phase!
+UVM_INFO monitor.sv(14) @ 0: uvm_test_top.env.agnt.mon [MONITOR CLASS] Build phase!
+UVM_INFO sequencer.sv(11) @ 0: uvm_test_top.env.agnt.seqr [SEQUENCER CLASS] Build phase!
+UVM_INFO scoreboard.sv(13) @ 0: uvm_test_top.env.scb [scoreboard CLASS] Build phase!
+UVM_INFO driver.sv(24) @ 0: uvm_test_top.env.agnt.drv [DRIVER CLASS] connect phase!
+UVM_INFO monitor.sv(25) @ 0: uvm_test_top.env.agnt.mon [MONITOR CLASS] connect phase!
+UVM_INFO sequencer.sv(17) @ 0: uvm_test_top.env.agnt.seqr [SEQUENCER CLASS] connect phase!
+UVM_INFO agent.sv(23) @ 0: uvm_test_top.env.agnt [AGENT CLASS] connect phase!
+UVM_INFO scoreboard.sv(20) @ 0: uvm_test_top.env.scb [scoreboard CLASS] connect phase!
+UVM_INFO env.sv(20) @ 0: uvm_test_top.env [ENV CLASS] connect phase!
+UVM_INFO test.sv(22) @ 0: uvm_test_top [TEST CLASS] connect phase!
+UVM_INFO driver.sv(29) @ 0: uvm_test_top.env.agnt.drv [DRIVER CLASS] inside run phase!
+UVM_INFO monitor.sv(30) @ 0: uvm_test_top.env.agnt.mon [MONITOR CLASS] run phase!
+UVM_INFO scoreboard.sv(30) @ 0: uvm_test_top.env.scb [scoreboard CLASS] run phase!
+UVM_INFO test.sv(27) @ 0: uvm_test_top [TEST CLASS] run phase!
+UVM_INFO sequence.sv(6) @ 0: reporter@@reset_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(10) @ 0: uvm_test_top.env.agnt.seqr@@reset_seq [BASE_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 5: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 5: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 5: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 15: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 15: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 15: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 25: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 25: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 25: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 35: uvm_test_top.env.scb [compare] transaction passed! as Actual value =13 and Expected value 13
+UVM_INFO sequence.sv(6) @ 35: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 35: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 35: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 45: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 45: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 45: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 55: uvm_test_top.env.scb [compare] transaction passed! as Actual value =39 and Expected value 39
+UVM_INFO sequence.sv(6) @ 55: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 55: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 55: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 65: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 65: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 65: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 75: uvm_test_top.env.scb [compare] transaction passed! as Actual value =2 and Expected value 2
+UVM_INFO sequence.sv(6) @ 75: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 75: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 75: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 85: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 85: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 85: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 95: uvm_test_top.env.scb [compare] transaction passed! as Actual value =16 and Expected value 16
+UVM_INFO sequence.sv(6) @ 95: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 95: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 95: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 105: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 105: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 105: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 115: uvm_test_top.env.scb [compare] transaction passed! as Actual value =60 and Expected value 60
+UVM_INFO sequence.sv(6) @ 115: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 115: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 115: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 125: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 125: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 125: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 135: uvm_test_top.env.scb [compare] transaction passed! as Actual value =8 and Expected value 8
+UVM_INFO sequence.sv(6) @ 135: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 135: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 135: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 145: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 145: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 145: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 155: uvm_test_top.env.scb [compare] transaction passed! as Actual value =120 and Expected value 120
+UVM_INFO sequence.sv(6) @ 155: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 155: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 155: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 165: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 165: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 165: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 175: uvm_test_top.env.scb [compare] transaction passed! as Actual value =136 and Expected value 136
+UVM_INFO sequence.sv(6) @ 175: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 175: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 175: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 185: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 185: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 185: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 195: uvm_test_top.env.scb [compare] transaction passed! as Actual value =1 and Expected value 1
+UVM_INFO sequence.sv(6) @ 195: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 195: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 195: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 205: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 205: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 205: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 215: uvm_test_top.env.scb [compare] transaction passed! as Actual value =2 and Expected value 2
+UVM_INFO sequence.sv(6) @ 215: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 215: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 215: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 225: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 225: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 225: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 235: uvm_test_top.env.scb [compare] transaction passed! as Actual value =2 and Expected value 2
+UVM_INFO sequence.sv(6) @ 235: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 235: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 235: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 245: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 245: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 245: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 255: uvm_test_top.env.scb [compare] transaction passed! as Actual value =170 and Expected value 170
+UVM_INFO sequence.sv(6) @ 255: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 255: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 255: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 265: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 265: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 265: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 275: uvm_test_top.env.scb [compare] transaction passed! as Actual value =15 and Expected value 15
+UVM_INFO sequence.sv(6) @ 275: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 275: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 275: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 285: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 285: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 285: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 295: uvm_test_top.env.scb [compare] transaction passed! as Actual value =10 and Expected value 10
+UVM_INFO sequence.sv(6) @ 295: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 295: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 295: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 305: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 305: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 305: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 315: uvm_test_top.env.scb [compare] transaction passed! as Actual value =114 and Expected value 114
+UVM_INFO sequence.sv(6) @ 315: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 315: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 315: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 325: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 325: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 325: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 335: uvm_test_top.env.scb [compare] transaction passed! as Actual value =1 and Expected value 1
+UVM_INFO sequence.sv(6) @ 335: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 335: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 335: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 345: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 345: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 345: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 355: uvm_test_top.env.scb [compare] transaction passed! as Actual value =5 and Expected value 5
+UVM_INFO sequence.sv(6) @ 355: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 355: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 355: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 365: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 365: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 365: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 375: uvm_test_top.env.scb [compare] transaction passed! as Actual value =5 and Expected value 5
+UVM_INFO sequence.sv(6) @ 375: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 375: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 375: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 385: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 385: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 385: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 395: uvm_test_top.env.scb [compare] transaction passed! as Actual value =21 and Expected value 21
+UVM_INFO sequence.sv(6) @ 395: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 395: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 395: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 405: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 405: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 405: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 415: uvm_test_top.env.scb [compare] transaction passed! as Actual value =13 and Expected value 13
+UVM_INFO sequence.sv(6) @ 415: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 415: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 415: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 425: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 425: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 425: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 435: uvm_test_top.env.scb [compare] transaction passed! as Actual value =27 and Expected value 27
+UVM_INFO sequence.sv(6) @ 435: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 435: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 435: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 445: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 445: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 445: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 455: uvm_test_top.env.scb [compare] transaction passed! as Actual value =80 and Expected value 80
+UVM_INFO sequence.sv(6) @ 455: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 455: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 455: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 465: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 465: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 465: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 475: uvm_test_top.env.scb [compare] transaction passed! as Actual value =39 and Expected value 39
+UVM_INFO sequence.sv(6) @ 475: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 475: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 475: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 485: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 485: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 485: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 495: uvm_test_top.env.scb [compare] transaction passed! as Actual value =9 and Expected value 9
+UVM_INFO sequence.sv(6) @ 495: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 495: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 495: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 505: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 505: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 505: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 515: uvm_test_top.env.scb [compare] transaction passed! as Actual value =3 and Expected value 3
+UVM_INFO sequence.sv(6) @ 515: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 515: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 515: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 525: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 525: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 525: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 535: uvm_test_top.env.scb [compare] transaction passed! as Actual value =180 and Expected value 180
+UVM_INFO sequence.sv(6) @ 535: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 535: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 535: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 545: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 545: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 545: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 555: uvm_test_top.env.scb [compare] transaction passed! as Actual value =3 and Expected value 3
+UVM_INFO sequence.sv(6) @ 555: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 555: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 555: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 565: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 565: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 565: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 575: uvm_test_top.env.scb [compare] transaction passed! as Actual value =29 and Expected value 29
+UVM_INFO sequence.sv(6) @ 575: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 575: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 575: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 585: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 585: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 585: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 595: uvm_test_top.env.scb [compare] transaction passed! as Actual value =102 and Expected value 102
+UVM_INFO sequence.sv(6) @ 595: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 595: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 595: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 605: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 605: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 605: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 615: uvm_test_top.env.scb [compare] transaction passed! as Actual value =42 and Expected value 42
+UVM_INFO sequence.sv(6) @ 615: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 615: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 615: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 625: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 625: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 625: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 635: uvm_test_top.env.scb [compare] transaction passed! as Actual value =22 and Expected value 22
+UVM_INFO sequence.sv(6) @ 635: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 635: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 635: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 645: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 645: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 645: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 655: uvm_test_top.env.scb [compare] transaction passed! as Actual value =3 and Expected value 3
+UVM_INFO sequence.sv(6) @ 655: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 655: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 655: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 665: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 665: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 665: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 675: uvm_test_top.env.scb [compare] transaction passed! as Actual value =2 and Expected value 2
+UVM_INFO sequence.sv(6) @ 675: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 675: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 675: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 685: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 685: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 685: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 695: uvm_test_top.env.scb [compare] transaction passed! as Actual value =5 and Expected value 5
+UVM_INFO sequence.sv(6) @ 695: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 695: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 695: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 705: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 705: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 705: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 715: uvm_test_top.env.scb [compare] transaction passed! as Actual value =7 and Expected value 7
+UVM_INFO sequence.sv(6) @ 715: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 715: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 715: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 725: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 725: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 725: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 735: uvm_test_top.env.scb [compare] transaction passed! as Actual value =80 and Expected value 80
+UVM_INFO sequence.sv(6) @ 735: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 735: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 735: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 745: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 745: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 745: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 755: uvm_test_top.env.scb [compare] transaction passed! as Actual value =110 and Expected value 110
+UVM_INFO sequence.sv(6) @ 755: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 755: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 755: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 765: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 765: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 765: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 775: uvm_test_top.env.scb [compare] transaction passed! as Actual value =72 and Expected value 72
+UVM_INFO sequence.sv(6) @ 775: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 775: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 775: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 785: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 785: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 785: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 795: uvm_test_top.env.scb [compare] transaction passed! as Actual value =15 and Expected value 15
+UVM_INFO sequence.sv(6) @ 795: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 795: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 795: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 805: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 805: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 805: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 815: uvm_test_top.env.scb [compare] transaction passed! as Actual value =16 and Expected value 16
+UVM_INFO sequence.sv(6) @ 815: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 815: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 815: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 825: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 825: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 825: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 835: uvm_test_top.env.scb [compare] transaction passed! as Actual value =4 and Expected value 4
+UVM_INFO sequence.sv(6) @ 835: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 835: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 835: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 845: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 845: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 845: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 855: uvm_test_top.env.scb [compare] transaction passed! as Actual value =4 and Expected value 4
+UVM_INFO sequence.sv(6) @ 855: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 855: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 855: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 865: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 865: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 865: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 875: uvm_test_top.env.scb [compare] transaction passed! as Actual value =5 and Expected value 5
+UVM_INFO sequence.sv(6) @ 875: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 875: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 875: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 885: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 885: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 885: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 895: uvm_test_top.env.scb [compare] transaction passed! as Actual value =13 and Expected value 13
+UVM_INFO sequence.sv(6) @ 895: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 895: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 895: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 905: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 905: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 905: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 915: uvm_test_top.env.scb [compare] transaction passed! as Actual value =11 and Expected value 11
+UVM_INFO sequence.sv(6) @ 915: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 915: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 915: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 925: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 925: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 925: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 935: uvm_test_top.env.scb [compare] transaction passed! as Actual value =190 and Expected value 190
+UVM_INFO sequence.sv(6) @ 935: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 935: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 935: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 945: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 945: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 945: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 955: uvm_test_top.env.scb [compare] transaction passed! as Actual value =19 and Expected value 19
+UVM_INFO sequence.sv(6) @ 955: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 955: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 955: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 965: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 965: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 965: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 975: uvm_test_top.env.scb [compare] transaction passed! as Actual value =1 and Expected value 1
+UVM_INFO sequence.sv(6) @ 975: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 975: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 975: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO sequence.sv(6) @ 985: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 985: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 985: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO scoreboard.sv(60) @ 995: uvm_test_top.env.scb [compare] transaction passed! as Actual value =3 and Expected value 3
+UVM_INFO sequence.sv(6) @ 995: reporter@@test_seq [BASE_SEQ] inside constructor!
+UVM_INFO sequence.sv(23) @ 995: reporter@@test_seq [TEST_SEQ] inside constructor!
+UVM_INFO sequence.sv(27) @ 995: uvm_test_top.env.agnt.seqr@@test_seq [TEST_SEQ] inside body task!
+UVM_INFO /eda/synopsys/vcs/V-2023.12/etc/uvm-1.2/base/uvm_objection.svh(1276) @ 1005: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /eda/synopsys/vcs/V-2023.12/etc/uvm-1.2/base/uvm_report_catcher.svh(705) @ 1005: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /eda/synopsys/vcs/V-2023.12/etc/uvm-1.2/base/uvm_report_server.svh(904) @ 1005: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  380
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[AGENT CLASS]     3
+[BASE_SEQ]   102
+[DRIVER CLASS]     4
+[ENV CLASS]     3
+[MONITOR CLASS]     4
+[RNTST]     1
+[SEQUENCER CLASS]     3
+[TEST CLASS]     4
+[TEST_DONE]     1
+[TEST_SEQ]   200
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+[compare]    49
+[scoreboard CLASS]     4
+
+$finish called from file "/eda/synopsys/vcs/V-2023.12/etc/uvm-1.2/base/uvm_root.svh", line 527.
+$finish at simulation time                 1005
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1005
+CPU Time:      0.430 seconds;       Data structure size:   0.4Mb
+Tue Mar 19 00:41:47 2024
